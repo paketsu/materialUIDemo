@@ -21,17 +21,17 @@ const Form = (props)  => {
             <form className="form">
                 <FormLabel className="formTitle">
                     <Typography variant="h6">Jees! Haluan tilata karkkeja:</Typography></FormLabel>
-                <TextField className="input" label="Etunimi" error variant="outlined"></TextField>
-                <TextField className="input" label="Sukunimi" error variant="outlined"></TextField>
+                <TextField margin="normal" label="Etunimi" error variant="outlined"></TextField>
+                <TextField margin="normal" label="Sukunimi" error variant="outlined"></TextField>
 
                 <Typography variant= "subtitle1">Sukupuoli</Typography>
                     <RadioGroup>
                         <FormControlLabel value="female" control={<Radio/>} label="nainen" />
                         <FormControlLabel value="male" control={<Radio/>} label="mies" />
                     </RadioGroup>
-                <TextField label="Sähköposti" type="email" required variant="outlined"></TextField>
-                <TextField label="Puhelinnumero" type="phone" disabled variant="outlined"></TextField>
-                <TextField label="Salasana" type="password" required variant="outlined"></TextField>
+                <TextField margin="normal" label="Sähköposti" type="email" required variant="outlined"></TextField>
+                <TextField margin="normal" label="Puhelinnumero" type="phone" disabled variant="outlined"></TextField>
+                <TextField margin="normal" label="Salasana" type="password" required variant="outlined"></TextField>
                     <FormGroup>
                     <Typography variant="subtitle1">Tilaan seuraavat karkit:</Typography>
 

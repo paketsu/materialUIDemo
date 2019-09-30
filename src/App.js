@@ -8,6 +8,7 @@ import Form from './Form/Form';
 import { makeStyles } from '@material-ui/styles';
 import MainNavigation from './MainNavigation/MainNavigation';
 import Toolbar from '@material-ui/core/Toolbar';
+import Footer from './Footer/Footer';
 
 const useStyles = makeStyles({
   root: {
@@ -35,6 +36,7 @@ const App = () => {
       </AppBar>
       <Posts />
       <Form />
+      <Footer />
     </div>
   );
 }

@@ -1,11 +1,8 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
-import CardActions from '@material-ui/core/CardActions';
-import { ListItemSecondaryAction } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid';
 
 const postitems = [
